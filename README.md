@@ -10,9 +10,10 @@ Within the repository, create a jupyter notebook that uses descriptive statistic
 
 - short explanation what the dataset is and which attributes are recorded in the dataset
 - the first thing I am doing here is importing the libraries necessary
-- importing the dataset and print out the keys
+- importing the dataset using pandas
 - print the dataset
-- show correlations between the vaiables in the dataset
+- to print the descriptions of the keys I am using sklearn, I cannot figure out how to manipulate the dataset as needed with sklearn for this section so I changed to using pandas
+- show correlations between the variables in the dataset
 - use some graphs and heatmaps to display these to visualise the correlations
 
 #### 2. Infer: 
