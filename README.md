@@ -13,11 +13,25 @@ Within the repository, create a jupyter notebook that uses descriptive statistic
 - importing the dataset using pandas
 - print the dataset
 - to print the descriptions of the keys I am using sklearn, I cannot figure out how to manipulate the dataset as needed with sklearn for this section so I changed to using pandas
-- show correlations between the variables in the dataset
-- use some graphs and heatmaps to display these to visualise the correlations
+- show correlations between the tax and crime variables in the dataset
+- use some graphs to visualise these correlations
+-Display a heatmap of the correlations between all of the variables
+-Brief discussion of findings
 
 #### 2. Infer: 
-To the above jupyter notebook, add a section where you use inferential statistics to analyse whether there is a significant difference in median house prices between houses that are along the Charles river and those that aren’t. You should explain and discuss your findings within the notebook. This part is also worth 20%. 
+- Splitting the dataset so that the variables CHAS and MEDV are used
+- CHAS is the dummy variable for Charles River and MEDV is the median value for owner-occupied homes
+- Calculating the minimum, maximum, mean, median, and standard deviation for the properties along the Charles River and the properties of the rest of the dataset
+- Summary of statistical information, where the t and p values are the most important
+- Histogram displaying the data
+- One-way ANOVA results
+- Brief discussion of the results 
 
 #### 3. Predict: 
-Again using the same notebook, use keras to create a neural network that can predict the median house price based on the other variables in the dataset. You are free to interpret this as you wish — for example, you may use all the other variables, or select a subset. This part is worth 60%.
+- Importing Keras, split the data, and display it
+- Calculating the means for test and training data
+- Build and compile the neural network
+- Defining the data and starting the neural network
+- Displaying the scores and also the mean of all scores
+- Display the mean squared error as well as the mean absolute error for the neural network
+- Brief discussion of findings
